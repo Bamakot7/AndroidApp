@@ -22,4 +22,11 @@
         android:name="com.example.eglisenoisy.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_agenda"
+        android:name="com.example.eglisenoisy.ui.agenda.AgendaFragment"
+        android:label="@string/menu_agenda"
+        tools:layout="@layout/fragment_agenda" />
+
 </navigation>
